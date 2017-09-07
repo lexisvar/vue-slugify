@@ -1,4 +1,4 @@
-const VueSlugify = require('./vue-slugify.js');
+const VueSlugify = require('./vue2-slugify.js');
 
 global.VueSlugify = VueSlugify;
 

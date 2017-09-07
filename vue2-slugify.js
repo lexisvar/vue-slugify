@@ -19,7 +19,12 @@ function slugify(text){
 
     return text.toString().toLowerCase()
         .replace(/\s+/g, '-') // Replace spaces with -
-        .replace(/&/g, '-and-') // Replace & with 'and'
+        .replace(/á/gi,"a")
+        .replace(/é/gi,"e")
+        .replace(/í/gi,"i")
+        .replace(/ó/gi,"o")
+        .replace(/ú/gi,"u")
+        .replace(/ñ/gi,"n")
         .replace(/[^\w\-]+/g, '') // Remove all non-word chars
         .replace(/--+/g, '-'); // Replace multiple - with single -
 }

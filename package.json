@@ -1,27 +1,27 @@
 {
-  "name": "vue-slugify",
+  "name": "vue2-slugify",
   "version": "0.0.1",
   "description": "",
-  "main": "vue-slugify.js",
+  "main": "vue2-slugify.js",
   "files": [
-    "vue-slugify.js"
+    "vue2-slugify.js"
   ],
   "scripts": {
-    "build": "$(npm bin)/browserify browserify-me.js -o dist/vue-slugify.js && $(npm bin)/uglifyjs dist/vue-slugify.js -o dist/vue-slugify.min.js && echo Success"
+    "build": "$(npm bin)/browserify browserify-me.js -o dist/vue2-slugify.js && $(npm bin)/uglifyjs dist/vue2-slugify.js -o dist/vue2-slugify.min.js && echo Success"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/kabbouchi/vue-slugify.git"
+    "url": "git://github.com/lexisvar/vue2-slugify.git"
   },
   "keywords": [
     "slug",
     "slugify",
     "vue"
   ],
-  "author": "Georges KABBOUCHI <georges.kabbouchi@gmail.com>",
+  "author": "Georges KABBOUCHI <lexisvar@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kabbouchi/vue-slugify/issues"
+    "url": "https://github.com/lexisvar/vue2-slugify/issues"
   },
   "devDependencies": {
     "browserify": "^14.3.0",

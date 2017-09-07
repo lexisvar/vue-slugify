@@ -1,13 +1,13 @@
-# vue-slugify
+# vue2-slugify
 
 > Slug directive plugin for Vue.js.
 
 ## Install
 
-#### Available through npm as `vue-slugify`.
+#### Available through npm as `vue2-slugify`.
 
   ``` js
-  var VueSlugify = require('vue-slugify')
+  var VueSlugify = require('vue2-slugify')
   Vue.use(VueSlugify)
   ```
 
